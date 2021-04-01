@@ -1,0 +1,32 @@
+.footer {
+  padding-top: 45px;
+
+  color: #fbfbfb;
+  background-color: #232323;
+
+  ul {
+    padding: 0;
+
+    list-style: none;
+  }
+
+  a {
+    color: lighten($color-dark, 33%);
+  }
+
+  a:hover,
+  a:focus {
+    color: $color-light;
+    // text-decoration: none;
+  }
+
+  &-fifth {
+    margin: 20px 0;
+
+    text-align: center;
+
+    a {
+      color: darken($color-light, 5%);
+    }
+  }
+}
